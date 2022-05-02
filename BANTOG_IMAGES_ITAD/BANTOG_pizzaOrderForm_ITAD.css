@@ -1,0 +1,154 @@
+body{
+    background-image:url(bodyBgPhoto.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head h1{
+    font-family: Georgia, serif;
+    font-size: 3em;
+    font-style: oblique;
+    background-color: red;
+    color:white;
+    word-spacing: 30px;
+    text-shadow: 5px 5px 6px cornflowerblue;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+h2{
+  font-family: Georgia, serif;
+  padding-top: 20px;
+  text-shadow: 5px 5px 6px purple;
+}
+
+img{
+  width: 70px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+fieldset{
+    border: solid 3px #ccc;
+    border-radius: 25px; 
+    padding-bottom: 30px;
+    width: 40%;
+    margin:auto;
+    width: 600px;
+}
+
+#fieldset2, #fieldset3{
+    background-image:url(orderFormBgImg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 1em 2em;
+    width: 450px;
+}
+  
+legend{
+  font-size: 50em;
+  padding: 0 .25em;
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, serif;
+  text-align: center;
+}
+
+#main{
+  font-size: 2.5em;
+}
+  
+.sub{
+  font-size: 2em;
+}
+
+#fieldset2 label{
+  display:block;
+  margin-top: 1em;
+  font-family: Tahoma, sans-serif;
+}
+
+#fieldset3 label{
+  display: inline-block;
+  margin-top: 1em;
+  font-family: Tahoma, sans-serif;
+}
+
+#fieldset3 label{
+  margin-right: 10px;
+}
+
+#fieldset3 .label{
+  font-weight: bold;
+}
+
+#fieldset3 select{
+  margin-right: 20px;
+}
+  
+#fieldset2:first-of-type{
+  margin-top: 10px;
+} 
+
+label:first-of-type{
+  margin-top:0;
+} 
+  
+input{
+  padding: .5em;
+  border: solid 1px #999;
+}
+  
+input[type="email"], input[type="text"], input[type="phone"]{
+  width: 20em;
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input[type="number"]{
+  width: 10%;
+}
+
+textarea{
+  min-height: 6em;
+  min-width: 95%;
+  padding: .5em;
+  border: solid 1px #999;
+  border-radius: 4px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin-right:.5em;
+  resize:none;
+}
+
+#addMore{
+  min-width: 40%;
+  min-height: 4em;
+}
+  
+input[type="submit"], input[type="reset"]{
+  margin-top: 1em;
+  margin-right: 20px;
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: green;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 430px){
+  legend{
+    font-size: 1.75em;
+  }
+} 

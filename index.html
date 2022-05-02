@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Order Form</title>
+        <link rel="stylesheet" type="text/css" href="BANTOG_IMAGES_ITAD/BANTOG_pizzaOrderForm_ITAD.css">
+    </head>
+    <body>
+        <!--BANTOG, JOHN RASER-->
+        <!--04/29/22-->
+        <div class="head">
+            <h1>ADIE'S SNACK BAR</h1>
+        </div>
+
+        <br> <br> <br>
+        <form action="" method="post">
+            <fieldset>
+                <legend id="main">ORDER NOW!</legend>
+
+                <fieldset id="fieldset2">
+                    <legend class="sub">Customer Information</legend>
+                        
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Name" required>
+                    
+                    <label for="address">Complete Address: </label>
+                    <input type="text" name="address" id="address" placeholder="Address" required>
+                    
+                    <label for="phone">Contact Number: </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Phone" required>
+
+                    <label for="email">Email Address: </label>
+                    <input type="email" name="address" id="address" placeholder="Address">
+                    
+                    <label for="message">How do we get into your place? </label>
+                    <textarea name="message" id="message"></textarea>
+                </fieldset>
+
+                <br>
+
+                <fieldset id="fieldset3">
+                    <legend class="sub">ORDER FORM</legend>
+
+                    <h2>BURGER<img src="BANTOG_IMAGES_ITAD/burger.jpg" alt="Burger"></h2>
+                    <input type="radio" name="patty" id="singlePatty">
+                    <label for="singlePatty">Single Patty</label>
+
+                    <input type="radio" name="patty" id="doublePatty">
+                    <label for="doublePatty">Double Patty</label>
+                    
+                    <br>
+
+                    <label class="label">Toppings</label>
+                    
+                    <br>                   
+                        
+                    <input type="checkbox" name="cheese" id="cheese">
+                    <label for="cheese">Cheese</label>
+
+                    <input type="checkbox" name="tomato" id="tomato">
+                    <label for="tomato">Tomato</label>
+
+                    <input type="checkbox" name="onion" id="onion">
+                    <label for="onion">Onion: </label>
+
+                    <input type="checkbox" name="cucumber" id="cucumber"> 
+                    <label for="cucumber">Cucumber</label>
+
+                    <input type="checkbox" name="bacon" id="bacon">
+                    <label for="bacon">Bacon</label>
+
+                    <h2>Bun<img src="BANTOG_IMAGES_ITAD/buns.jpeg" alt="Hamburger Buns"></h2>
+                    <input type="radio" name="bun" id="whiteBun">
+                    <label for="whiteBun">White Bun</label>
+
+                    <input type="radio" name="bun" id="wheatBun">
+                    <label for="wheatBun">Wheat Bun</label>
+                        
+                    <br>
+                        
+                    <label class="label">Type</label>
+                        
+                    <br>
+
+                    <input type="radio" name="flavor" id="honeyOat">
+                    <label for="honeyOat">Honey Oat</label>
+
+                    <input type="radio" name="flavor" id="sugarFree">
+                    <label for="sugarFree">Sugar Free</label>
+
+                    <h2>Quantity</h2>
+                    <input type="number" name="quantity" id="quantity" min="1">
+                    
+                    <br> <br> <hr>
+
+                    <h2>Pasta <img src="BANTOG_IMAGES_ITAD/pasta.jpg" alt="Pasta"></h2>
+                    <label class="label">Sauce</label>
+                    
+                    <br>
+
+                    <input type="radio" name="sauce" id="carbonara">
+                    <label for="carbonara">Carbonara</label>
+
+                    <input type="radio" name="sauce" id="pesto">
+                    <label for="pesto">Pesto</label>
+
+                    <input type="radio" name="sauce" id="spaghetti">
+                    <label for="spaghetti">Spaghetti</label>
+
+                    <br>
+
+                    <label class="label">Extras </label>
+                    
+                    <br>
+
+                    <input type="checkbox" name="extraCheese" id="extraCheese">
+                    <label for="extraCheese">Extra Cheese</label>
+
+                    <input type="checkbox" name="extraSauce" id="extraSauce">
+                    <label for="extraSauce">Extra Sauce</label>
+
+                    <br>
+
+                    <label for="addMore">Add More</label>
+                    <br>
+                    <textarea name="addMore" id="addMore"></textarea>
+
+                    <h2>Quantity</h2>
+                    <label for="quantityPerBox">Box/s</label>
+                    <input type="number" name="quantityPerBox" id="quantity" min="1">
+                    
+                    <br> <br> <hr>
+
+                    <h2>Fries <img src="BANTOG_IMAGES_ITAD/fries.jpg" alt="Fries"></h2>
+                    <label for="size">Size</label>
+                    <select name="sizes" id="sizesFries">
+                        <option value="none" selected disabled hidden>Select a size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <label for="flavor">Flavor</label>
+                    <select name="flavors" id="flavors">
+                        <option value="none" selected disabled hidden>Select a flavor</option>
+                        <option value="bbq">BBQ</option>
+                        <option value="cheese">Cheese</option>
+                        <option value="sourCream">Sour Cream</option>
+                    </select>
+                        
+                    <br>
+
+                    <label for="quantityFries">Quantity</label>
+                    <input type="number" name="quantityFries" id="quantityFries" min="1">
+                    
+                    <br> <br> <hr>
+
+                    <h2>Drinks <img src="BANTOG_IMAGES_ITAD/drinks.jpg" alt="Drinks"></h2>
+                    <input type="radio" name="drinks" id="coke">
+                    <label for="coke">Coke</label>
+
+                    <input type="radio" name="drinks" id="orangeJuice">
+                    <label for="orangeJuice">Orange Juice</label>
+
+                    <input type="radio" name="drinks" id="greenTea">
+                    <label for="greenTea">Green Tea</label>
+
+                    <input type="radio" name="drinks" id="redTea">
+                    <label for="redTea">Red Tea</label>
+
+                    <br>
+
+                    <label for="size">Size</label>
+                    <select name="sizes" id="sizesDrinks">
+                        <option value="none" selected disabled hidden>Select a size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <br>
+
+                    <label for="quantityDrinks">Quantity</label>
+                    <input type="number" name="quantityDrinks" id="quantityDrinks" min="1">
+                        
+                    <br> <br> <hr>
+                    <h2>Feedback</h2>
+                    <label for="feedback">What can you say on our ordering form?</label>
+                    <textarea name="feedback" id="feedback"></textarea>
+                    
+                    <br> <br> <hr>
+                    <h2>Delivery</h2>
+                    <input type="radio" name="delivery" id="deliver" required>
+                    <label for="deliver">Delivery</label>
+
+                    <input type="radio" name="delivery" id="pickUp">
+                    <label for="pickUp">Pick Up</label>
+
+                    <br> <br>
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" id="reset" value="Reset">
+                </fieldset>
+
+            </fieldset>  
+                
+        </form>
+        <br> <br> <br>
+
+    </body>
+
+</html>
